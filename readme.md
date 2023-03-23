@@ -44,7 +44,7 @@ To restore a playlist from a CSV file, run spotify-set.py with the path to the C
 
 `python spotify-set.py /path/to/your/csv_file.csv`
 
-Replace /path/to/your/csv_file.csv with the actual path to the CSV file.
+Replace `/path/to/your/csv_file.csv` with the actual path to the CSV file.
 
 ## Notes
 
