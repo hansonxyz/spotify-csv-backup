@@ -5,7 +5,7 @@ This repository contains two Python scripts, `spotify-get.py` and `spotify-set.p
 ## Prerequisites
 
 - Python 3.x
-- `spotipy` library
+- `spotipy` library  (`pip3 install spotipy`)
 
 ## Installation
 
