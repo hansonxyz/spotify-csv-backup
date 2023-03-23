@@ -5,26 +5,28 @@ This repository contains two Python scripts, `spotify-get.py` and `spotify-set.p
 ## Prerequisites
 
 - Python 3.x
-- `spotipy` library  (`pip3 install spotipy`)
+- `spotipy` library
 
 ## Installation
 
 1. Clone this repository:
 
-`git clone https://github.com/yourusername/spotify-playlist-backup-restore.git
-cd spotify-playlist-backup-restore`
+`git clone https://github.com/hansonxyz/spotify-csv-editor.git`
+`cd spotify-csv-editor`
 
 2. Install the `spotipy` library:
 
 `pip install spotipy`
 
-3. Create a `credentials.json` file in the repository's root directory with your Spotify API credentials. Replace the placeholders with your actual credentials:
+3. Setup a API project in the Spotify developer console, and add `http://localhost/"` as a redirect uri in the app.
+
+4. Create a `credentials.json` file in the repository's root directory with your Spotify API credentials.  Replace the placeholders with your actual credentials:
 
 `
 {
   "client_id": "your_client_id",
   "client_secret": "your_client_secret",
-  "redirect_uri": "your_redirect_uri",
+  "redirect_uri": "http://localhost/",
   "username": "your_spotify_username"
 }
 `
