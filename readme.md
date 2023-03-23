@@ -12,6 +12,7 @@ This repository contains two Python scripts, `spotify-get.py` and `spotify-set.p
 1. Clone this repository:
 
 `git clone https://github.com/hansonxyz/spotify-csv-editor.git`
+
 `cd spotify-csv-editor`
 
 2. Install the `spotipy` library:
