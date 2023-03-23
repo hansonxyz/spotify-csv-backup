@@ -19,7 +19,7 @@ This repository contains two Python scripts, `spotify-get.py` and `spotify-set.p
 
 `pip install spotipy`
 
-3. Setup a API project in the Spotify developer console, and add `http://localhost/"` as a redirect uri in the app.
+3. Setup a API project in the Spotify developer console, and add `http://localhost/` as a redirect uri in the app.
 
 4. Create a `credentials.json` file in the repository's root directory with your Spotify API credentials.  Replace the placeholders with your actual credentials:
 
